@@ -1,0 +1,56 @@
+To ensure lines remain perfectly vertical or horizontal in the QGIS Layout Manager, follow these steps:
+
+---
+
+### 1. **Use the Alignment Snapping Tool**
+QGIS Layout provides snapping tools to help you draw precise vertical or horizontal lines.
+
+- Open the **Layout Manager** and add a new layout or edit an existing one.
+- In the layout toolbar, enable **Snapping Guides**:
+  - Go to **View > Snapping Guides** or click the snapping icon in the toolbar.
+  - This ensures that your lines snap to a grid or other layout elements for alignment.
+
+---
+
+### 2. **Use the Shift Key While Drawing**
+- Select the **Add Line** tool from the toolbar.
+- Hold down the **Shift key** while drawing the line:
+  - This constrains the line to 0°, 45°, or 90° angles, ensuring vertical or horizontal alignment.
+
+---
+
+### 3. **Manually Adjust Line Orientation**
+If you've already drawn a line and want to make it perfectly vertical or horizontal:
+- Select the line in the layout.
+- Open the **Item Properties** panel on the right.
+- Adjust the **Start and End Coordinates**:
+  - For a vertical line, ensure the X-coordinates of both ends are identical.
+  - For a horizontal line, ensure the Y-coordinates of both ends are identical.
+
+---
+
+### 4. **Snap to Grid**
+Using a grid ensures consistent alignment:
+- Go to **View > Grid and Guides > Show Grid** to display a grid.
+- Enable **Snapping**:
+  - Go to **View > Snapping Guides > Snap to Grid**.
+- Draw or adjust your lines so they align with the grid.
+
+---
+
+### 5. **Align Multiple Elements**
+To align lines with other elements:
+- Select the line and the reference element (e.g., another line, box, or text).
+- Use the **Align Toolbar**:
+  - Go to **Layout > Align Items** or use the toolbar options (e.g., Align Left, Align Top).
+- This ensures the selected elements align perfectly.
+
+---
+
+### 6. **Use the Ruler for Precision**
+- Enable the **Ruler** from the layout view to check alignment visually.
+- Adjust the line endpoints using the ruler as a guide.
+
+---
+
+By combining these methods, you can ensure your lines are perfectly vertical or horizontal, maintaining precision and professional alignment in your QGIS layout.
